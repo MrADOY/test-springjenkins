@@ -12,7 +12,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String getHome(){
-		return "Bonjour Aurelien";
+		return "Bonjour Jenkins";
 	}
 	
 	public static void main(String[] args) {
